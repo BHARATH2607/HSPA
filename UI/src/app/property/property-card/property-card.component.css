@@ -1,0 +1,9 @@
+.house{
+  margin: 15px;
+  height: 250px;
+}
+
+.card-body{
+  border-color: black;
+  background-color:aliceblue;
+}
