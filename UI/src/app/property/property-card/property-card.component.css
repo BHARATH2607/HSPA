@@ -1,9 +1,43 @@
-.house{
-  margin: 15px;
-  height: 250px;
+.card-img-wrapper{
+  overflow: hidden;
+  position: relative;
 }
 
 .card-body{
-  border-color: black;
   background-color:aliceblue;
 }
+
+.card:hover img{
+  transform: scale(1.2,1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  height: 250px;
+  opacity: 0.5;
+}
+
+.card img{
+  transform: scale(1,1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  height: 250px;
+}
+
+.card-img-icons{
+  position: absolute;
+  bottom: -10%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+}
+
+.card-img-wrapper:hover .card-img-icons{
+  bottom: 0;
+  opacity: 1;
+}
+
+.animate{
+  transition: all 0.3s ease-in-out;
+}
+

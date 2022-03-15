@@ -1,0 +1,38 @@
+[
+  {
+    "Id" : 1,
+    "Name" : "Bharath",
+    "Type" : "2BHK",
+    "Price" : 1200000
+  },
+  {
+    "Id" : 2,
+    "Name" : "Kapil",
+    "Type" : "3BHK",
+    "Price" : 7500000
+  },
+  {
+    "Id" : 3,
+    "Name" : "Raju",
+    "Type" : "1BHK",
+    "Price" : 500000
+  },
+  {
+    "Id" : 4,
+    "Name" : "Sairaj",
+    "Type" : "3BHK",
+    "Price" : 7000000
+  },
+  {
+    "Id" : 5,
+    "Name" : "Sairam",
+    "Type" : "3BHK",
+    "Price" : 8000000
+  },
+  {
+    "Id" : 6,
+    "Name" : "Ranjith",
+    "Type" : "4BHK",
+    "Price" : 9500000
+  }
+]
